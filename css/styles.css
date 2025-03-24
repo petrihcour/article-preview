@@ -103,15 +103,17 @@ h1 {
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
   top: 0;
-  left: 0;
-  right: 0;
+  left: 50%;
+  transform: translateX(-50%);
   color: #9daec2;
+  width: 327px;
 }
 
 .popup-container-styling {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding: 1rem;
 }
 
 .social-media-icons {
