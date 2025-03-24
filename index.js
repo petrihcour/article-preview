@@ -1,5 +1,11 @@
 const shareButton = document.querySelector('.icon-button');
+const popup = document.getElementById('popup');
+const closePopup = document.getElementById('close-popup');
 
 shareButton.addEventListener('click', function() {
-    alert('Share button clicked!');
+    popup.style.display = 'block';
+})
+
+closePopup.addEventListener('click', function() {
+    popup.style.display = 'none';
 })
