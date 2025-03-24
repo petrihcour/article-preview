@@ -12,6 +12,11 @@ main {
   background-color: #ffffff;
   padding: 2rem;
   border-radius: 10px;
+  width: 327px;
+}
+
+.title-and-description {
+  padding-bottom: 3rem;
 }
 
 h1 {
@@ -19,6 +24,7 @@ h1 {
   font-weight: 700;
   color: #48556A;
   letter-spacing: 0.25px;
+  padding-bottom: 1.5rem;
 }
 
 .social {
