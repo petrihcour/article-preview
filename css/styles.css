@@ -97,6 +97,7 @@ h1 {
 }
 
 .popup-container {
+  display: none;
   position: absolute;
   background-color: #48556A;
   border-bottom-left-radius: 10px;
