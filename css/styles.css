@@ -2,11 +2,13 @@
 body {
   background-color: #ecf2f8;
   font: 13px Manrope, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
 main {
-  display: flex;
-  flex-direction: column;
   background-color: #ffffff;
   padding: 2rem;
   border-radius: 10px;
