@@ -1,13 +1,12 @@
 const shareButton = document.querySelector('.icon-button');
 const popup = document.getElementById('popup');
-const closePopup = document.getElementById('close-popup');
 
-popup.style.display = 'none';
+// popup.style.display = 'none';
 
 shareButton.addEventListener('click', function() {
-    popup.style.display = 'block';
-})
-
-closePopup.addEventListener('click', function() {
-    popup.style.display = 'none';
-})
+    if (popup.style.display === 'block') {
+        popup.style.display = 'none';
+    } else {
+        popup.style.display = 'block'
+    }
+});
