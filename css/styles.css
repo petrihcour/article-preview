@@ -16,10 +16,12 @@ h1 {
   font-size: 20px;
   font-weight: 700;
   color: #48556A;
+  letter-spacing: 0.25px;
 }
 
 .social {
   display: flex;
+  align-items: center;
 }
 
 .profile {
