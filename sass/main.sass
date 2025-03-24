@@ -10,7 +10,7 @@ $font-stack: Manrope, sans-serif;
 
 body 
     background-color: $grey-200;
-    font: 100% $font-stack;
+    font: 13px $font-stack;
 
 main
     display: flex;
@@ -24,13 +24,38 @@ h1
     font-weight: 700;
     color: $grey-900;
 
+.social
+    display: flex;
+
+.profile
+    width: 40px;
+    height: 100%;
+    border-radius: 50%;
+
 .description
-    font-size: 13px;
     color: $grey-500;
     letter-spacing: 0.012em;
 
+.name-and-date
+    display: flex;
+    flex-direction: column;
+
 .name
+    font-weight: 700;
     color: $grey-900;
 
 .date
     color: $grey-400;
+
+.icon-button
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: $grey-200;
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+
+.icon-share
+    width: 15px;
+    height: 13px;

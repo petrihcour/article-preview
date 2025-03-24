@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
 body {
   background-color: #ecf2f8;
-  font: 100% Manrope, sans-serif;
+  font: 13px Manrope, sans-serif;
 }
 
 main {
@@ -18,18 +18,48 @@ h1 {
   color: #48556A;
 }
 
+.social {
+  display: flex;
+}
+
+.profile {
+  width: 40px;
+  height: 100%;
+  border-radius: 50%;
+}
+
 .description {
-  font-size: 13px;
   color: #6e8098;
   letter-spacing: 0.012em;
 }
 
+.name-and-date {
+  display: flex;
+  flex-direction: column;
+}
+
 .name {
+  font-weight: 700;
   color: #48556A;
 }
 
 .date {
   color: #9daec2;
+}
+
+.icon-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ecf2f8;
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+}
+
+.icon-share {
+  width: 15px;
+  height: 13px;
 }
 
 /*# sourceMappingURL=styles.css.map */
