@@ -139,20 +139,18 @@ h1
     width: 15px;
     height: 13px;
 
-
-
-@media (min-width: 1024px)
-    main
-        max-width: 730px;
-        height: 280px;
+@media (min-width: 769px)
+    main 
+        max-width: 608px;
+        height: auto;
         display: flex;
 
-    .main-container
-        padding: 1.5rem 2.5rem;
+    .main-container 
+        padding: 1.5rem 2rem;
 
     .drawers
-        height: 100%;
-        width: 285px;
+        height: auto;
+        width: 229px;
         border-top-left-radius: 10px;
         border-top-right-radius: 0px;
         border-bottom-left-radius: 10px;
@@ -164,7 +162,21 @@ h1
     .popup-container
         display: block;
         border-radius: 10px;
+        bottom: 160%;
+        left: 95%;
         width: 248px;
+
+    .popup-container:after
+        content: '';
+        position: absolute;
+        top: 100%;
+        transform: translateX(-50%); 
+        left: 50%;
+        width: 0;
+        height: 0;
+        border-left: 10px solid transparent;
+        border-right: 10px solid transparent;
+        border-top: 10px solid $grey-900;
 
     .popup-container-styling
         justify-content: center;
@@ -175,3 +187,16 @@ h1
 
     .icon-button-dark
         display: none;
+
+
+@media (min-width: 1024px)
+    main
+        max-width: 730px;
+        height: 280px;
+
+    .main-container
+        padding: 1.5rem 2.5rem;
+
+    .drawers
+        height: 100%;
+        width: 285px;
