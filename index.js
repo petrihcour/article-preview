@@ -1,7 +1,7 @@
 const shareButton = document.querySelector('.icon-button');
 const popup = document.getElementById('popup');
 
-// popup.style.display = 'none';
+popup.style.display = 'none';
 
 shareButton.addEventListener('click', function() {
     if (popup.style.display === 'block') {
